@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | [家庭串流与成果分享](cases/home-streaming/README.md) | 把主机画面送到投影，并整理成可分享的实践记录 | 方案实际实施；短视频提交、审核、公开播放已验证；1080p60 HEVC 是配置目标 |
 | [英语 Shadowing 学习材料](cases/english-shadowing/README.md) | 用逐句材料、时间对齐和学习卡片支持美式口语练习 | 已有学习材料和制作技能；自动获取、切片、字幕和卡片全流程尚未验证跑通 |
+| [本地 Wan 短视频生成与剪辑](cases/local-ai-video/README.md) | 在本地 GPU 上把参考图做成带字幕、声音和 AI 标识的竖屏短片 | 管线实际跑通；输出可播放并有音轨记录；身份/风格漂移、动作故事不够清楚、音效偏低，属于预览/待修订 |
 
 ## 怎样使用这些手记
 
@@ -18,6 +19,10 @@
 3. 记录观察结果、失败状态和恢复动作，再补充自己的结论。
 
 新案例可从 [案例模板](templates/case-template.md) 开始。素材边界和发布检查见 [公开内容检查](PUBLICATION.md)。
+
+## 公开技能
+
+- [local-video-director](skills/local-video-director/SKILL.md)：使用本地 GPU 与 ComfyUI/Wan 完成短视频生成、剪辑、字幕、音频、AI 标识和三层验收；含公开版参考文档与复现边界。
 
 ## 代码与内容的分工
 
